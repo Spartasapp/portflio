@@ -1,0 +1,57 @@
+
+.flex {
+  min-height: 100vh;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  /* border: 2px solid white; */
+  background-color: rgba(17, 20, 20, 0.897);
+}
+.skillsBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.container {
+  width: 785px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.margin {
+  margin: 40px 0px;
+  color: orange;
+  font-size: 1.5em;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+.imgPosition{
+  display: flex;
+  justify-content: center;
+  margin: 20px ;
+}
+.widthBlock {
+  width: 250px;
+  margin-bottom: 60px;
+}
+.img:hover{
+  transition: 2s;
+  transform: rotateY(180deg);
+}
+
+@media screen and (max-width: 320px){
+  .container {
+    width: 100%;
+  };
+}

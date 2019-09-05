@@ -1,0 +1,112 @@
+
+.container:nth-child(2) {
+  margin-left: 40px;
+  color: orange;
+ align-self: flex-start;
+}
+
+.container:nth-child(3) {
+  align-self: flex-end;
+}
+
+.container {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.listOfLinks {
+  margin-right: 40px;
+  color: white;
+  width: 300px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.appHeader {
+  display: flex;
+  justify-content: flex-end;
+}
+ 
+.buttonMenu{
+  width: 100%;
+  font-weight: bolder;
+  margin: 50px;
+  color: white;
+}
+.buttonMenu:hover{
+  color: orange;
+  cursor: pointer;
+}
+.myLogo {
+  
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 50px;
+  opacity: 0.3;
+}
+.myLogo:hover {
+  transition: 2s;
+  opacity: 1;
+}
+
+.Applogo1 {
+  /* animation: App-logo-spin infinite 20s linear; */
+  width: 5em;
+  pointer-events: none;
+}
+
+.Applogo2 {
+  animation: App-logo-spin infinite  1s linear;
+  width: 5em;
+  pointer-events: none;
+}
+.unghors {
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+}
+.unghors:hover {
+  
+  transition: 1s;
+  color: orange;
+  
+}
+
+.Appdiv {
+  /* animation: App-logo-spin infinite 20s linear; */
+  
+  /* width: 5em;
+  height: 100%; */
+  /* background: url(../../logo.svg); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.Applink {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 320px){
+  .appHeader {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 320px){
+  .appHeader {
+    display: none;
+  }
+}

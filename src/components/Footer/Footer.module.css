@@ -1,0 +1,52 @@
+.flexContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  width: 800px;
+}
+.box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(17, 20, 20, 0.897);
+  border-top: 2px solid white;
+}
+
+
+.links {
+  margin-right: 25px;
+  text-decoration: none;
+  color: white;
+  opacity: 0.2;
+}
+
+.links:hover {
+  transition: 1s;
+  /* background: aqua; */
+  opacity: 1;
+}
+
+.legalInfrmation{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: aquamarine;
+  font-size: 0.8em;
+  margin-top: 50px;
+}
+
+.linksContainer {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 320px){
+  .box {
+    width: 100%;
+  };
+}
+@media screen and (max-width: 320px){
+  .links{
+    margin-right: 25px;
+  }
+}

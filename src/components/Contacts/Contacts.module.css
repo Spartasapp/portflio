@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 140px;
+  min-height: 100vh;
+}
+
+.input{
+  width: 100%;
+  background: #454545;
+  margin-bottom: 10px;
+  border: none;
+  color: white;
+  /* padding-left: 14px; */
+}
+textarea {
+  width: 100%;
+  height: 140px;
+  border: 0px;
+  background: #454545;
+  resize: none;
+  padding: 10px 0px;
+}
+.buttonSubmit {
+  align-self: flex-end;
+  background: #2eb398;
+  width: 92px;
+  height: 39px;
+  border: 1px solid transparent;
+  font-family: 'Lato', sans-serif;
+  font-size: 12pt;
+  color: #d7fcf5;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+
+@media (max-width: 515px){
+  .container {
+    width: 90%;
+  };
+  
+}
