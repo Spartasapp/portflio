@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
 .container:nth-child(2) {
   margin-left: 40px;
   color: orange;
@@ -10,6 +10,7 @@
 }
 
 .container {
+  font-family: 'Chilanka', cursive;  
   height: 60px;
   display: flex;
   align-items: center;
@@ -22,17 +23,21 @@
   display: flex;
   list-style-type: none;
   justify-content: space-between;
+  padding: 0;
 }
 
 .appHeader {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  position: fixed;
+  right: 0;
+  z-index: 100;
+  margin-left: 20px;
 }
  
 .buttonMenu{
-  width: 100%;
   font-weight: bolder;
-  margin: 50px;
+  margin-right: 20px;
   color: white;
 }
 .buttonMenu:hover{
@@ -52,7 +57,6 @@
 }
 
 .Applogo1 {
-  /* animation: App-logo-spin infinite 20s linear; */
   width: 5em;
   pointer-events: none;
 }
@@ -75,11 +79,6 @@
 }
 
 .Appdiv {
-  /* animation: App-logo-spin infinite 20s linear; */
-  
-  /* width: 5em;
-  height: 100%; */
-  /* background: url(../../logo.svg); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -101,12 +100,47 @@
 }
 
 @media screen and (max-width: 320px){
+  .buttonMenu {
+    position: fixed;
+    right: 0;
+  }
   .appHeader {
+    position: fixed;
+    z-index: 100;
+    justify-content: flex-end;
     width: 100%;
+    right: 0;
+  }
+  .listOfLinks {
+    width: 200px;
+    margin: 20px;
+  }
+  .myLogo {
+    opacity: 1
   }
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 710px){
+  .buttonMenu {
+    position: fixed;
+    right: 0;
+  }
   .appHeader {
+    position: fixed;
+    z-index: 100;
+    justify-content: flex-end;
+    width: 100%;
+    right: 0;
+    /* display: none; */
+  }
+  .Appdiv {
     display: none;
+  }
+  .myLogo {
+    opacity: 1
+  }
+  .listOfLinks {
+    font-size: 12px;
+    width: 200px;
+    margin: 20px;
   }
 }

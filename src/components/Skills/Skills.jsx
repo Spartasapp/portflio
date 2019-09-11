@@ -21,7 +21,8 @@ const Skills = () => {
             img: 'https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/184/landscape/html5.png',
             width: 280,
             height: 150,
-            transition: '2s'
+            transition: '2s',
+            
         },
         {
             skill: 'CSS (less, flex, grid)',
@@ -84,10 +85,9 @@ const Skills = () => {
 
     return (
         <div id="skills" className={style.flex}>
-            {/* <a name='Skills'></a> */}
             <Fade clear>
                 <div className={style.skillsBlock}>
-                    <div className={style.margin}> Skills</div>
+                    <div className={style.margin}>Skills</div>
                     <div className={style.container} >
                         {skillsImage}
                     </div>

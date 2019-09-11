@@ -1,5 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
 .flex {
+  
   min-height: 100vh;
   /* display: flex;
   flex-direction: column;
@@ -26,7 +27,8 @@
   color: orange;
   font-size: 1.5em;
   font-weight: bolder;
-  font-family: Georgia, 'Times New Roman', Times, serif
+  font-family: 'Chilanka', cursive;
+  
 }
 .skills {
   display: flex;
@@ -34,7 +36,8 @@
   margin-top: 20px;
   margin-bottom: 50px;
   color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif
+  font-family: 'Chilanka', cursive;
+  cursor: pointer;
 }
 .imgPosition{
   display: flex;
@@ -42,15 +45,26 @@
   margin: 20px ;
 }
 .widthBlock {
+  color: blueviolet;
+  font-family: 'Chilanka', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 250px;
   margin-bottom: 60px;
 }
 .img:hover{
+  cursor: pointer;
   transition: 2s;
   transform: rotateY(180deg);
 }
 
 @media screen and (max-width: 320px){
+  .container {
+    width: 100%;
+  };
+}
+@media screen and (max-width: 710px){
   .container {
     width: 100%;
   };

@@ -33,7 +33,7 @@ const App = () => {
       <AboutMe />
       <Skills />
       <MyWorks />
-      <Freelance />
+      {/* <Freelance /> */}
       
       <Contacts />
       <Footer />

@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Header.module.css';
 import logo from '../../logo.svg';
-import myLogo from '../../assets/logo1.png'
+import myLogo from '../../assets/logo3.png'
 
 class Header extends React.Component {
   state = {
@@ -28,7 +28,7 @@ class Header extends React.Component {
   }
   render = () => {
     return (
-      <div className={style.container}>
+      <div id='MainMenu' className={style.container}>
         <div >
           <img className={style.myLogo} style={this.transition} src={myLogo} alt=""/>
         </div>
